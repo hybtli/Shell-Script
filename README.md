@@ -9,7 +9,8 @@
       5 
       32 
       4 
-      From this data, your program should print out a row of stars of the given length for each integer. For the input above, your program should print the following:
+      From this data, your program should print out a row of stars of the given length for each integer. For the input above, your 
+      program should print the following:
       
       Ex:
       $ ./myprog1.sh filename 
@@ -21,7 +22,8 @@
       
  myprog2.sh:
       
-      A shell script that reads integers (one-per-line) from the user until it reads the word “end”. Afterward, it will report the maximum number given by the user.
+      A shell script that reads integers (one-per-line) from the user until it reads the word “end”. Afterward, it will report the
+      maximum number given by the user.
       
       Ex:
       $ ./myprog2.sh 
@@ -37,7 +39,10 @@
       
  myprog3.sh:
  
-      Write a shell script that takes an optional argument as a directory and removes all zero length ordinary files in the directory. If directory argument is not           given, it should remove all zero-length files in the current directory. If given directory argument is not a valid directory, your program should terminate with       an error (exit 1). You can use man [ command to learn more about checking file information.
+      Write a shell script that takes an optional argument as a directory and removes all zero length ordinary files in the directory.
+      If directory argument is not given, it should remove all zero-length files in the current directory. If given directory argument
+      is not a valid directory, your program should terminate with an error (exit 1). You can use man [ command to learn more about
+      checking file information.
       
       Ex: 
       $ ls –l /home/std/Desktop 
